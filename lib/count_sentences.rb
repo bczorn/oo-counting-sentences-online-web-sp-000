@@ -16,7 +16,9 @@ class String
 
   def count_sentences
     l = self.squeeze
-    l.split(". ").split("! ").split("? ")
+    l.split(". ")
+    l.split("! ")
+    l.split("? ")
     binding.pry
     l.count
   end
