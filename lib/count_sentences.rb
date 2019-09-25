@@ -19,6 +19,6 @@ class String
     k = l.split("! ")
     j = k.split("? ")
     binding.pry
-    l.count
+    j.count
   end
 end
