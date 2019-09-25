@@ -18,6 +18,6 @@ class String
     l = self.squeeze
     k = l.split(". ") + l.split("! ") + l.split("? ")
     binding.pry
-    k.count
+    k.count - 2
   end
 end
