@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     l = self.squeeze
-    l.split(("."||"?"||"!")" ")
+    l.split(/ ")
   end
 end
